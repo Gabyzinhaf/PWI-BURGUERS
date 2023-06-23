@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>PWI Burguers</title>
+    
+</head>
+<body>
+    <!-- Navbar - Menu -->
+    <header>
+        <nav class="navegacao">
+            <a href="#" class="logo">PWI <span>Buu</span>R G<span>uu</span>ERS</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#">About</a></li>
+                <li class="nav-item"><a href="#">Menu</a></li>
+                <li class="nav-item"><a href="#">Contato</a></li>
+                <i class='bx bx-search-alt'></i>
+            </ul>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <!--Parte Principal do Site-->
+    <main>
+        <section class="home">
+            <div class="home-text">
+                <h4 class="text-h4">Bem Vindos a PWI Burguers</h4>
+                <h1 class="text-h1">Especiarias diferentes para gostos diferentes</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iste quisquam accusantium nobis illo quod dolorum repudiandae hic expedita laboriosam. Quia iusto saepe nisi aperiam repellat culpa praesentium, earum cum!</p>
+            </div>
+            <div class="home-img">
+                <img src="imagens/home.png" alt="hamburguer" id="img-burguer">
+            </div>
+        </section>
+    </main>
+
+    <!--Descer para parte de produtos/ lanches-->
+   <a href="#arrow-produtos"><div class="arrow-produtos"><i class='bx bxs-chevrons-down bx-fade-up' title="PRODUTOS"></i></div></a>
+    
+
+    <!--Parte dos Produtos/ Lanches-->
+
+    <div class="container" id="arrow-produtos">
+
+   <h3 class="title">  </h3>
+
+   <div class="products-container">
+
+      <div class="product" data-name="p-1">
+         <img src="imagens/hamburguer1.png" alt="">
+         <h3>Hamburguer Artesanal +</h3>
+         <p>Coca Cola 2Litros.</p>
+         <div class="price">R$48,90</div>
+      </div>
+
+      <div class="product" data-name="p-2">
+         <img src="imagens/hamburgue4.png" alt="">
+         <h3>Hamburguer Gourmet +</h3>
+         <p>Coca cola 2Litros.</p>
+         <div class="price">R$48,90</div>
+      </div>
+
+      <div class="product" data-name="p-3">
+         <img src="imagens/vegano.png" alt="">
+         <h3>Hamburguer Vegano +</h3>
+         <p>Guarana 2Litros.</p>
+         <div class="price">R$29,90</div>
+      </div>
+
+      <div class="product" data-name="p-4">
+         <img src="imagens/vegetariano.png" alt="">
+         <h3>Hamburguer Vegetariano +</h3>
+         <p>Guarana 2Litros.</p>
+         <div class="price">R$28,00</div>
+      </div>
+
+      <div class="product" data-name="p-5">
+         <img src="imagens/fitness.png" alt="">
+         <h3>Hamburguer FitNess +</h3>
+         <p>Suco Natural.</p>
+         <div class="price">R$36,00</div>
+      </div>
+
+      <div class="product" data-name="p-6">
+         <img src="imagens/quente.png" alt="">
+         <h3>Cachorro Quente +</h3>
+         <p>Fanta 1.5Litros.</p>
+         <div class="price">R$20,00</div>
+      </div>
+
+   </div>
+
+</div>
+
+<div class="products-preview">
+
+   <div class="preview" data-target="p-1">
+      <i class="fas fa-times"></i>
+      <img src="imagens/hamburguer1.png" alt="">
+      <h3>Hamburguer Artesanal</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Melhor e Maior da Região, não vai perder em!!</p>
+      <div class="price">R$48,90</div>
+      <div class="buttons">
+         <a href="#" class="cart">Fazer Pedido</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-2">
+      <i class="fas fa-times"></i>
+      <img src="imagens/hamburgue4.png" alt="">
+      <h3>Hamburguer Gourmet</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Melhor e o mais diferenciado da Região, não vai perder em!!</p>
+      <div class="price">R$48,90</div>
+      <div class="buttons">
+         <a href="#" class="cart">Fazer Pedido</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-3">
+      <i class="fas fa-times"></i>
+      <img src="imagens/vegano.png" alt="">
+      <h3>Hamburguer Vegano</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Para os Veganos tambem temos esse Hamburguer tooop!!! Do jeito que voce gosta.</p>
+      <div class="price">R$29,90</div>
+      <div class="buttons">
+         <a href="#" class="cart">Fazer Pedido</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-4">
+      <i class="fas fa-times"></i>
+      <img src="imagens/vegetariano.png" alt="">
+      <h3>Hamburguer Vegetariano</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Para os Vegetariano tambem temos esse Hamburguer tooop!! So folhas e vegetais hmmmmm!</p>
+      <div class="price">R$29,90</div>
+      <div class="buttons">
+         <a href="#" class="cart">Fazer Pedido</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-5">
+      <i class="fas fa-times"></i>
+      <img src="imagens/fitness.png" alt="">
+      <h3>Hamburguer FitNess</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>E para os/as Bodybuilders temos esse Hamburguer diferenciado, aqui temos todas as vartiedades para voces!! </p>
+      <div class="price">R$36,00</div>
+      <div class="buttons">
+         <a href="#" class="cart">Fazer Pedido</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-6">
+      <i class="fas fa-times"></i>
+      <img src="imagens/quente.png" alt="">
+      <h3>Cachorro Quente</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>E que tal um Cachorro Quente caso não queira um Hamburguer em em? HMMMM!!</p>
+      <div class="price">R$20,00</div>
+      <div class="buttons">
+         <a href="#" class="cart">Fazer Pedido</a>
+      </div>
+   </div>
+
+</div>
+
+    <script src="main.js"></script>
+</body>
+</html>
